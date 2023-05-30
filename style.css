@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: #04a406;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 400px;
+    width: 90%;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+}
+form > *, input[type=range]{
+    width: 100%;
+    margin: 8px 0;
+}
+form > *:focus{
+    outline: none;
+}
+#voiceList{
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#txtInput{
+    padding: 10px;
+    border-radius: 5px;
+}
+#rateValue, #pitchValue{
+    float: right;
+}
+#speakBtn{
+    border: none;
+    background-color: #04a406;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
